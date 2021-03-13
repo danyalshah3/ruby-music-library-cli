@@ -9,7 +9,7 @@ attr_accessor :name, :artist
     
         def initialize(name)
             @name = name
-          save
+         
         end
 
         def self.create(name)
